@@ -1,0 +1,18 @@
+From: Secure Banking Alerts <alert@secure-banking-alerts.com>
+To: user@example.com
+Subject: [Important] Unusual Login Activity Detected
+Date: Mon, 5 Aug 2025 10:15:00 +0530
+
+Dear Customer,
+
+We've detected suspicious login activity on your account. To ensure the security of your banking information, we urge you to verify your identity immediately.
+
+Click below to review your account:
+http://bit.ly/secure-verification-alert
+
+Failure to respond within 24 hours will result in temporary suspension of your account.
+
+Sincerely,
+Secure Banking Alerts Team
+
+Note: This is an automated message. Please do not reply.
