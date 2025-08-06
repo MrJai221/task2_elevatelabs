@@ -1,0 +1,75 @@
+
+## 🔒 **Phishing Email Threat Analysis Report: `secure-banking-alerts.com`**
+
+---
+
+### 📌 **Objective**
+
+To analyze a suspicious email for potential phishing characteristics and raise awareness about common cyber threats. The email analyzed claims to be from `secure-banking-alerts.com`.
+
+---
+
+### 📧 **Sample Email Overview**
+
+**From**: `Secure Banking Alerts <alert@secure-banking-alerts.com>`
+**To**: [user@example.com](mailto:user@example.com)
+**Subject**: `[Important] Unusual Login Activity Detected`
+**Date**: 5th August 2025, 10:15 AM
+**Body Summary**: The email warns of suspicious login activity and demands immediate verification via a shortened link.
+
+---
+
+### 🛠️ **Tools Used**
+
+* Email Client Viewer (text format)
+* [MXToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
+* VirusTotal URL Scanner
+* Manual link inspection (hover test)
+
+---
+
+### ⚠️ **Phishing Indicators Found**
+
+| Indicator                           | Description                                                                                                                      |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Suspicious Sender Address**    | The domain `secure-banking-alerts.com` is not a verified or known banking institution.                                           |
+| **2. Shortened URL**                | The email includes a suspicious shortened link: `http://bit.ly/secure-verification-alert` (commonly used to mask phishing URLs). |
+| **3. Urgent Language**              | Phrases like *“Failure to respond within 24 hours”* and *“immediately”* are tactics to create panic.                             |
+| **4. No Personalization**           | The email uses *“Dear Customer”* instead of the recipient's actual name — a sign of mass phishing campaigns.                     |
+| **5. Threat of Account Suspension** | This fear-based tactic is commonly used to trick users into quick action.                                                        |
+| **6. Generic Signature**            | Signed off as *“Secure Banking Alerts Team”* with no employee name or contact info.                                              |
+| **7. Unusual URL Domain**           | `secure-banking-alerts.com` is not associated with any registered, reputable financial institutions.                             |
+| **8. Missing Security Details**     | No digital signature or HTTPS link to a valid banking site.                                                                      |
+
+---
+
+### 🧪 **Header Analysis Results**
+
+* **SPF Check**: Failed — The sender domain is not authorized to send emails on behalf of a real bank.
+* **DKIM Signature**: Not present — Indicates email is likely forged.
+* **IP Origin**: Unrelated foreign hosting service (non-financial provider).
+
+---
+
+### 🔗 **Link Inspection Result**
+
+Using VirusTotal and hovering over the shortened link revealed redirection to a malicious phishing website impersonating a real bank login page.
+
+---
+
+### 📝 **Conclusion**
+
+This email is a classic phishing attempt. It uses spoofed sender information, urgency, threatening language, and fake links to trick recipients into revealing sensitive information. It fails multiple security checks and exhibits all common phishing traits.
+
+---
+
+### ✅ **Recommendations**
+
+* **Do Not Click** on unknown or shortened links.
+* **Verify Email Addresses** before taking action.
+* **Report Phishing** to your organization or official government CERT.
+* **Use Anti-Phishing Tools** and browser extensions.
+* **Enable 2FA** on all financial accounts.
+
+---
+
